@@ -1,0 +1,63 @@
+
+/* confirm button */
+   
+#confirm {
+    /* padding-top: 10px; */
+    display: none;
+    z-index: 99999999 !important;
+    background-color: #f2f298;
+    border: 1.1px solid #aaa;
+    position: fixed !important;
+    /* width: 300px; */
+    top: 30%;
+    left: 43%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: auto !important;
+    padding-right:auto !important;
+    /* width: 100% !important; */
+    padding: 6px 8px 8px;
+    text-align: center;
+    border-radius: 5px;;
+ }
+ #confirm button {
+    margin-top: 10px;;
+    background-color: #21D2FF;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    margin-left: 15px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+ }
+ #confirm .message {
+    text-align: center;
+ }
+
+/* display the product table  */
+
+.input-text-colr {
+display: none;
+background-color: #fdfcd6;
+color: #212529 !important;
+font-weight: 300;
+line-height: 1.5;
+padding: 0px !important;
+border: 0px;
+max-width: 300px !important;
+width:80px !important;
+border-radius: 4px;
+border: solid 1px #b5b69c;
+
+}
+.inputChildPHP{
+/* display: none; */
+}
+.confirm-edit{
+display: none;
+}
+.confirm-edit i{
+style="cursor:pointer;"
+}

@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteRule ^trang-chu$ index.php
+    # RewriteRule ^home$ index.php
+    # RewriteRule ^index.html$ index.php
+    # RewriteRule ^404.html$ 404.php
+RewriteRule ^(.+)$ index.php?url=$1
+
+# set the RULE that : all directory must not go throught index.php
+# RewriteRule ^404.html 404.php // will not work for ^(bla.bla.bla)$
+
